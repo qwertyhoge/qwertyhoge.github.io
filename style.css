@@ -1,7 +1,38 @@
 header{
-    position: fixed;
+    position: absolute;
+    display: flex;
+    flex: content;
+    justify-content: space-between;
     top: 0px;
-    background-color: #a4a2a3;
+    background-color: #848283;
     height: 10%;
     width: 100%;
+}
+
+body{
+    background-image: url("./background.png");
+}
+
+div.header-elem{
+    position: relative;
+    flex: auto;
+}
+
+div.header-elem:not(.header-left){
+    border-left: 1px white solid;
+}
+
+p.header-text{
+    margin: 0px;
+    color: #f5f6f2;
+    font-size: 30px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    margin: 0px;
 }
