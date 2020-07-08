@@ -3,8 +3,8 @@ header{
     flex: content;
     justify-content: space-between;
     top: 0px;
-    background-color: #2d2f3a;
-    height: 5%;
+    background-color: #0d0f13;
+    height: 4vh;
     width: 100%;
     border-bottom: 1px #5f5f5f solid;
 }
@@ -24,8 +24,9 @@ div.header-elem:not(.header-left){
 }
 p.header-text{
     margin: 0px;
-    font-size: 30px;
-    color: #d9d2d4;
+    font-size: 25px;
+    letter-spacing: 5px;
+    color: #b9b2b4;
 
     position: absolute;
     top: 50%;
@@ -48,13 +49,34 @@ img#header-img
 }
 
 div#text-area{
-    border: 1px #9f9dd4 solid;
-    background-color: #454742;
-    color: #d2d2d2;
+    border: 1px #4f6d84 solid;
+    background-color: #2e2f42d2;
+    font-size: 1.1em;
+    letter-spacing: 0.1em;
+    line-height: 1.4em;
+    color: #c2c2c2;
     padding: 10px;
     border-radius: 8px;
-    width: 75vw;
+    width: 66vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
+}
+
+a{
+    color: #ada17d;
+}
+
+h1{
+    padding: 5px 0px;
+    font-size: 1.5em;
+}
+
+h2{
+    margin-left: 10px;
+    font-size: 1.3em;
+}
+
+p{
+    margin-left: 20px;
 }
